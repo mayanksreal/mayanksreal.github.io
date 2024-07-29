@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank Sharma - Personal Website</title>
+
+    <style type="text/css">
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background: #004d99;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+            border: 5px solid #fff;
+        }
+        
+        .header-text h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        
+        .header-text p {
+            margin: 0;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+        
+        header nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        header nav a:hover {
+            text-decoration: underline;
+        }
+        
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        section {
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            color: #004d99;
+            border-bottom: 2px solid #004d99;
+            padding-bottom: 5px;
+        }
+        
+        .experience-item, .education-item, .project-item {
+            margin-bottom: 20px;
+        }
+        
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        
+        .project-img {
+            width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+        
+        footer {
+            background: #004d99;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        
+    
+    </style>
+
+    
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="image/profile.jpg" alt="Mayank Sharma" class="profile-img">
+            <div class="header-text">
+                <h1>Mayank Sharma</h1>
+                <p>Student</p>
+                <nav>
+                    <a href="mailto:mayanksharmaind@outlook.com">Mail</a>
+                    <a href="https://www.linkedin.com/in/mayanksreal/">LinkedIn</a>
+                    <a href="https://github.com/mayanksreal">GitHub</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="projects">
+            <h2>Project showcase</h2>
+            <div class="project-item">
+                <h3>Capy Bot: Generative AI Discord Bot</h3>
+                <p><strong>Python, Gemini API</strong></p>
+                <img src="image/capybara.jpg" alt="Capy Bot mascot" class="project-img" width=300 height=300>
+                <ul>
+                    <li>Developed a multimedia-to-text Discord bot using Gemini 1.5 API, designed to interact with users in a playful manner emulating the personality of a capybara with capabilities of Google Gemini.</li>
+                    <li>Deployed the bot on replit for continuous availability and interaction cross-platform.</li>
+                    <li><a href="https://github.com/mayanksreal/capybot">Reproducible code</a></li>
+                </ul>
+                <img src="image/capybot.jpg" alt="Capy Bot demo" class="project-img">
+                <img src="image/capybot2.jpg" alt="Capy Bot demo" class="project-img">
+            </div>
+            <div class="project-item">
+                <h3>CNN-Based Table Data Conversion Tool</h3>
+                <p><strong>Python, OpenCV</strong></p>
+                <ul>
+                    <li>Currently working on solo project at DRDO that utilizes Convolutional Neural Networks (CNNs) for image recognition tasks. Designed to convert tables containing both printed and handwritten data into structured CSV files, leveraged advanced image processing techniques and CNN architectures to enhance accuracy in data extraction and table recognition.</li>
+                    <li><a href="https://www.kaggle.com/code/mayanksreal/cnnbook">Related work</a></li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>Vaccine Track: Vaccine Management System</h3>
+                <p><strong>Python, Tkinter, MySQL</strong></p>
+                <ul>
+                    <li>Developed a python full-stack vaccine management system with functional Tkinter GUI and backend connected via MySQL. Implemented CRUD (Create, Read, Update, Delete) operations for managing vaccination data efficiently.</li>
+                    <li><a href="https://github.com/mayanksreal/vaccine-db">GitHub</a></li>
+                </ul>
+                <img src="image/add.gif" alt="Vaccine Track" class="project-img">
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>Java, Python, Machine Learning / Computer Vision, Convolutional Neural Networks, tensorflow, keras, UI/UX, Database (relational SQL), Problem Solving, Data structures</p>
+        </section>
+    </main>
+    <footer>
+        <p>Made with ♥ by Mayank Sharma</p>
+    </footer>
+</body>
+</html>
